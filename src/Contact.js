@@ -1,8 +1,21 @@
 import React, { Component } from "react";
  
 class Contact extends Component {
+
   componentDidMount() {
-    window.analytics.page('Contact');
+    var page_name = "Contact Us"
+    var page_title = "Contact Page";
+    window.analytics.page(page_name,
+      {
+        title: page_title
+      },
+      {
+        context:{
+          page:{
+            title: page_title
+          }
+        }
+      });
   }
   render() {
     return (

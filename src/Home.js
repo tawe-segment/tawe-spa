@@ -2,7 +2,19 @@ import React, { Component } from "react";
  
 class Home extends Component {
   componentDidMount() {
-    window.analytics.page('Home');
+    var page_name = "Home"
+    var page_title = "Main Home Page";
+    window.analytics.page(page_name,
+      {
+        title: page_title
+      },
+      {
+        context:{
+          page:{
+            title: page_title
+          }
+        }
+      });
   }
   render() {
     return (
