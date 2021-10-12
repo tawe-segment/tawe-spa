@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tawe-spa.github.io/static/css/main.601aa8f1.chunk.css",
-    "main.js": "/tawe-spa.github.io/static/js/main.8a6bd9dc.chunk.js",
-    "main.js.map": "/tawe-spa.github.io/static/js/main.8a6bd9dc.chunk.js.map",
+    "main.js": "/tawe-spa.github.io/static/js/main.369dfca8.chunk.js",
+    "main.js.map": "/tawe-spa.github.io/static/js/main.369dfca8.chunk.js.map",
     "runtime-main.js": "/tawe-spa.github.io/static/js/runtime-main.5b4c4ebf.js",
     "runtime-main.js.map": "/tawe-spa.github.io/static/js/runtime-main.5b4c4ebf.js.map",
     "static/js/2.eb451b74.chunk.js": "/tawe-spa.github.io/static/js/2.eb451b74.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5b4c4ebf.js",
     "static/js/2.eb451b74.chunk.js",
     "static/css/main.601aa8f1.chunk.css",
-    "static/js/main.8a6bd9dc.chunk.js"
+    "static/js/main.369dfca8.chunk.js"
   ]
 }
