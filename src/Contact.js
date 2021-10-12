@@ -5,6 +5,8 @@ class Contact extends Component {
   componentDidMount() {
     var page_name = "Contact Us"
     var page_title = "Contact Page";
+    var url = window.location.href;
+    var referrer = window.history.pushState({ prevUrl: window.location.href }, null, "/contact");
     window.analytics.page(page_name,
       {
         title: page_title
@@ -12,7 +14,9 @@ class Contact extends Component {
       {
         context:{
           page:{
-            title: page_title
+            title: page_title,
+            url: url,
+            referrer: referrer,
           }
         }
       });

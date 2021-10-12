@@ -11,7 +11,9 @@ class Stuff extends Component {
       {
         context:{
           page:{
-            title: page_title
+            title: page_title,
+            url: url,
+            referrer: referrer,
           }
         }
       });
