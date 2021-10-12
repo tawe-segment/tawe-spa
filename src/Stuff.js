@@ -4,8 +4,6 @@ class Stuff extends Component {
   componentDidMount() {
     var page_name = "Stuff"
     var page_title = "Some Stuff Page";
-    var url = window.location.href;
-    var referrer = window.history.pushState({ prevUrl: window.location.href }, null, "/stuff");
     window.analytics.page(page_name,
       {
         title: page_title
@@ -14,8 +12,6 @@ class Stuff extends Component {
         context:{
           page:{
             title: page_title,
-            url: url,
-            referrer: referrer,
           }
         }
       });
