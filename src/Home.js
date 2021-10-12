@@ -4,6 +4,8 @@ class Home extends Component {
   componentDidMount() {
     var page_name = "Home"
     var page_title = "Main Home Page";
+    var url = window.location.href;
+    var referrer = window.history.pushState({ prevUrl: window.location.href }, null, "/home");
     window.analytics.page(page_name,
       {
         title: page_title
