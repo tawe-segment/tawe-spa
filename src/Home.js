@@ -1,9 +1,16 @@
 import React, { Component } from "react";
+import { createBrowserHistory } from "history";
  
 class Home extends Component {
   componentDidMount() {
     var page_name = "Home"
     var page_title = "Main Home Page";
+    const history = createBrowserHistory();
+    // let prevPath = null;
+    console.log(history)
+    const url = history.location.pathname+history.location.hash
+    console.log(url)
+    console.log(history.location.search)
     window.analytics.page(page_name,
       {
         title: page_title
@@ -12,10 +19,11 @@ class Home extends Component {
         context:{
           page:{
             title: page_title,
+            url: url,
           }
         }
       });
-  }
+    }
   render() {
     return (
       <div>
