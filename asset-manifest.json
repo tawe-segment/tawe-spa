@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tawe-spa.github.io/static/css/main.601aa8f1.chunk.css",
-    "main.js": "/tawe-spa.github.io/static/js/main.f3b2bd81.chunk.js",
-    "main.js.map": "/tawe-spa.github.io/static/js/main.f3b2bd81.chunk.js.map",
+    "main.js": "/tawe-spa.github.io/static/js/main.0efaa363.chunk.js",
+    "main.js.map": "/tawe-spa.github.io/static/js/main.0efaa363.chunk.js.map",
     "runtime-main.js": "/tawe-spa.github.io/static/js/runtime-main.5b4c4ebf.js",
     "runtime-main.js.map": "/tawe-spa.github.io/static/js/runtime-main.5b4c4ebf.js.map",
-    "static/js/2.801beb3d.chunk.js": "/tawe-spa.github.io/static/js/2.801beb3d.chunk.js",
-    "static/js/2.801beb3d.chunk.js.map": "/tawe-spa.github.io/static/js/2.801beb3d.chunk.js.map",
+    "static/js/2.e187898b.chunk.js": "/tawe-spa.github.io/static/js/2.e187898b.chunk.js",
+    "static/js/2.e187898b.chunk.js.map": "/tawe-spa.github.io/static/js/2.e187898b.chunk.js.map",
     "index.html": "/tawe-spa.github.io/index.html",
     "static/css/main.601aa8f1.chunk.css.map": "/tawe-spa.github.io/static/css/main.601aa8f1.chunk.css.map",
-    "static/js/2.801beb3d.chunk.js.LICENSE.txt": "/tawe-spa.github.io/static/js/2.801beb3d.chunk.js.LICENSE.txt"
+    "static/js/2.e187898b.chunk.js.LICENSE.txt": "/tawe-spa.github.io/static/js/2.e187898b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5b4c4ebf.js",
-    "static/js/2.801beb3d.chunk.js",
+    "static/js/2.e187898b.chunk.js",
     "static/css/main.601aa8f1.chunk.css",
-    "static/js/main.f3b2bd81.chunk.js"
+    "static/js/main.0efaa363.chunk.js"
   ]
 }
